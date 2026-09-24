@@ -80,19 +80,19 @@
     <string name="web_import_no_json">JSON לא סופק</string>
     <string name="web_import_expected_array">צפוי מערך JSON של אוספים</string>
     <string name="web_import_empty_array">מערך ריק: לא נמצאו אוספים</string>
-    <string name="web_import_error_collection_invalid_id">אוסף {index}: חסר או שגוי השדה \&quot;id\&quot;</string>
-    <string name="web_import_error_collection_invalid_title">אוסף \&quot;{collection}\&quot;: חסר או שגוי השדה \&quot;title\&quot;</string>
-    <string name="web_import_error_collection_folders_array">אוסף \&quot;{collection}\&quot;: השדה \&quot;folders\&quot; חייב להיות מערך</string>
-    <string name="web_import_error_folder_invalid_format">אוסף \&quot;{collection}\&quot;, תיקייה {index}: פורמט לא תקין</string>
-    <string name="web_import_error_folder_missing_id">אוסף \&quot;{collection}\&quot;, תיקייה {index}: חסר השדה \&quot;id\&quot;</string>
-    <string name="web_import_error_folder_missing_title">אוסף \&quot;{collection}\&quot;, תיקייה \&quot;{folder}\&quot;: חסר השדה \&quot;title\&quot;</string>
-    <string name="web_import_error_sources_array">אוסף \&quot;{collection}\&quot;, תיקייה \&quot;{folder}\&quot;: השדה \&quot;sources\&quot; חייב להיות מערך</string>
-    <string name="web_import_error_invalid_tile_shape">אוסף \&quot;{collection}\&quot;, תיקייה \&quot;{folder}\&quot;: צורת אריח (tileShape) לא תקינה \&quot;{shape}\&quot;</string>
-    <string name="web_import_error_source_invalid_format">אוסף \&quot;{collection}\&quot;, תיקייה \&quot;{folder}\&quot;, מקור {index}: פורמט לא תקין</string>
-    <string name="web_import_error_source_missing_addon_fields">אוסף \&quot;{collection}\&quot;, תיקייה \&quot;{folder}\&quot;, מקור {index}: חסרים שדות חובה (addonId, type, catalogId)</string>
-    <string name="web_import_error_source_missing_tmdb_type">אוסף \&quot;{collection}\&quot;, תיקייה \&quot;{folder}\&quot;, מקור {index}: חסר סוג מקור TMDB</string>
-    <string name="web_import_error_source_missing_trakt_id">אוסף \&quot;{collection}\&quot;, תיקייה \&quot;{folder}\&quot;, מקור {index}: חסר מזהה רשימת Trakt</string>
-    <string name="web_import_success">יובאו {count} .אוספים. סרוק אותם ולחץ על \&quot;שמירת שינויים\&quot; כדי להחיל</string>
+    <string name="web_import_error_collection_invalid_id">אוסף {index}: חסר או שגוי השדה \"id\"</string>
+    <string name="web_import_error_collection_invalid_title">אוסף \"{collection}\": חסר או שגוי השדה \"title\"</string>
+    <string name="web_import_error_collection_folders_array">אוסף \"{collection}\": השדה \"folders\" חייב להיות מערך</string>
+    <string name="web_import_error_folder_invalid_format">אוסף \"{collection}\", תיקייה {index}: פורמט לא תקין</string>
+    <string name="web_import_error_folder_missing_id">אוסף \"{collection}\", תיקייה {index}: חסר השדה \"id\"</string>
+    <string name="web_import_error_folder_missing_title">אוסף \"{collection}\", תיקייה \"{folder}\": חסר השדה \"title\"</string>
+    <string name="web_import_error_sources_array">אוסף \"{collection}\", תיקייה \"{folder}\": השדה \"sources\" חייב להיות מערך</string>
+    <string name="web_import_error_invalid_tile_shape">אוסף \"{collection}\", תיקייה \"{folder}\": צורת אריח (tileShape) לא תקינה \"{shape}\"</string>
+    <string name="web_import_error_source_invalid_format">אוסף \"{collection}\", תיקייה \"{folder}\", מקור {index}: פורמט לא תקין</string>
+    <string name="web_import_error_source_missing_addon_fields">אוסף \"{collection}\", תיקייה \"{folder}\", מקור {index}: חסרים שדות חובה (addonId, type, catalogId)</string>
+    <string name="web_import_error_source_missing_tmdb_type">אוסף \"{collection}\", תיקייה \"{folder}\", מקור {index}: חסר סוג מקור TMDB</string>
+    <string name="web_import_error_source_missing_trakt_id">אוסף \"{collection}\", תיקייה \"{folder}\", מקור {index}: חסר מזהה רשימת Trakt</string>
+    <string name="web_import_success">יובאו {count} .אוספים. סרוק אותם ולחץ על \"שמירת שינויים\" כדי להחיל</string>
     <string name="web_import_invalid_json">לא תקין JSON</string>
     <string name="home_no_addons">אין עדיין תוספים מותקנים. הוסיפו תוסף כדי להתחיל לצפות.</string>
     <string name="home_no_catalog_addons">אין תוספי קטלוג מותקנים עדיין. התקינו תוסף קטלוג כדי להתחיל לראות תוכן.</string>
@@ -104,14 +104,14 @@
     <string name="error_state_possible_fix">פתרון אפשרי: %1$s</string>
     <string name="error_state_fix_retry_soon">אפשר לשנות שוב בעוד רגע.</string>
     <string name="error_state_issue_no_metadata_any_addon">לא ניתן לטעון פרטים עבור פריט זה כי אף אחד מהתוספים המותקנים לא סיפק עליו מידע.</string>
-    <string name="error_state_fix_no_metadata_any_addon">נסה תוסף אחר, בטל את \&quot;העדף תוסף מטה חיצוני\&quot; בהגדרות התצוגה, או בדוק שתוסף מותקן תומך במזהה זה.</string>
+    <string name="error_state_fix_no_metadata_any_addon">נסה תוסף אחר, בטל את \"העדף תוסף מטה חיצוני\" בהגדרות התצוגה, או בדוק שתוסף מותקן תומך במזהה זה.</string>
     <string name="error_state_prefix_no_supported_metadata">אין תוסף מותקן שתומך במידע עבור </string>
     <string name="error_state_prefix_no_addon_for_id">אף תוסף מותקן לא הצליח לספק מידע עבור מזהה:</string>
     <string name="error_state_fix_no_supported_metadata">התקן או עדכן תוסף שתומך בסוג תוכן זה, ואז נסה שוב.</string>
     <string name="error_state_prefix_tried_meta_addons">תוספי מידע שנוסו:</string>
     <string name="error_state_fix_tried_meta_addons">התקן תוסף שתומך במזהה זה, או הגדר/עדכן את התוסף מחדש ונסה שוב.</string>
     <string name="error_state_issue_missing_metadata_for_id">אין מידע זמין עבור מזהה זה</string>
-    <string name="error_state_fix_missing_metadata_for_id">פתח מזהה זה מתוסף אחר, בטל \&quot;העדף מטה מתוסף חיצוני\&quot;, או בדוק שהתוסף תומך במזהה זה.</string>
+    <string name="error_state_fix_missing_metadata_for_id">פתח מזהה זה מתוסף אחר, בטל \"העדף מטה מתוסף חיצוני\", או בדוק שהתוסף תומך במזהה זה.</string>
     <string name="error_state_issue_addon_unreachable">לא ניתן להתחבר לתוסף</string>
     <string name="error_state_fix_addon_unreachable">בדוק את חיבור האינטרנט, ודא שכתובת ה-URL של התוסף עדיין פעילה, ואז נסה שוב.</string>
     <string name="error_state_issue_addon_connection_failed">התוסף דחה את החיבור</string>
@@ -123,12 +123,12 @@
     <string name="error_state_fix_addon_generic">נסה שוב, עדכן או התקן מחדש את התוסף, או נסה תוסף אחר.</string>
     <string name="error_state_addon_issue_template">%1$s: %2$s.</string>
     <string name="error_meta_not_found">מטה-דאטה לא נמצאה</string>
-    <string name="error_meta_no_supported_addon">אין תוסף מותקן שתומך במטה-דאטה עבור \&quot;%1$s\&quot;.</string>
+    <string name="error_meta_no_supported_addon">אין תוסף מותקן שתומך במטה-דאטה עבור \"%1$s\".</string>
     <string name="error_meta_no_addon_for_id">אין תוסף מותקן שיכול לספק מטה-דאטה עבור id=%1$s (type=%2$s).</string>
     <string name="error_meta_tried_none">תוספי מטה-דאטה שנוסו: %1$s. אף אחד לא סיפק מטה-דאטה עבור id=%2$s (type=%3$s).</string>
     <string name="error_meta_tried_generic">תוספי מטה-דאטה שנוסו: %1$s. לא ניתן לטעון מטה-דאטה עבור id=%2$s (type=%3$s).</string>
     <string name="error_meta_tried_issues">תוספי מטה-דאטה שנוסו: %1$s. לא ניתן לטעון מטה-דאטה עבור id=%2$s (type=%3$s). בעיות: %4$s.</string>
-    <string name="error_stream_no_supported_addon">אין תוסף מותקן שתומך במקורות עבור \&quot;%1$s\&quot;.</string>
+    <string name="error_stream_no_supported_addon">אין תוסף מותקן שתומך במקורות עבור \"%1$s\".</string>
     <string name="error_stream_tried_none">תוספי סטרים שנוסו: %1$s. אף אחד מהם לא החזיר מקורות עבור id=%2$s (type=%3$s).</string>
     <string name="error_stream_tried_generic">תוספי סטרים שנוסו: %1$s. לא ניתן היה לטעון מקורות עבור id=%2$s (type=%3$s).</string>
     <string name="error_stream_tried_issues">תוספי סטרים שנוסו: %1$s. לא ניתן היה לטעון מקורות עבור id=%2$s (type=%3$s). בעיות: %4$s.</string>
@@ -250,7 +250,7 @@
     <string name="collections_editor_tmdb_watch_region_helper">קוד מדינה בתקן ISO 3166-1 שבו הכותרת זמינה. לדוגמה: US, IL.</string>
     <string name="collections_editor_tmdb_quick_watch_regions">אזורי צפייה מהירים</string>
     <string name="collections_editor_tmdb_watch_providers">מזהי ספקי צפייה</string>
-    <string name="collections_editor_tmdb_watch_providers_helper">השתמש במזהי ספקי צפייה של TMDB. הפרד מספר מזהים בפסיקים עבור \&quot;וגם\&quot; (AND), או בקו אנכי עבור \&quot;או\&quot; (OR).</string>
+    <string name="collections_editor_tmdb_watch_providers_helper">השתמש במזהי ספקי צפייה של TMDB. הפרד מספר מזהים בפסיקים עבור \"וגם\" (AND), או בקו אנכי עבור \"או\" (OR).</string>
     <string name="collections_editor_tmdb_watch_providers_placeholder">8|337|350</string>
     <string name="collections_editor_tmdb_without_watch_providers">מזהי ספקי צפייה מוחרגים</string>
     <string name="collections_editor_tmdb_without_watch_providers_helper">החרג כותרות הזמינות אצל מספרי ספקי הצפייה האלה של TMDB באזור שנבחר.</string>
@@ -589,8 +589,8 @@
     <string name="advanced_memory_only_vertical_scroll_subtitle">דלג על בקשות תמונה מהדיסק ומהרשת בעת גלילה אנכית בשורות דף הבית.</string>
     <string name="advanced_compose_highlighter">מדגיש Compose</string>
     <string name="advanced_compose_highlighter_subtitle">הבהב מסגרות סביב רכיבי ממשק המורכבים מחדש לצורך ניפוי ביצועים.</string>
-    <string name="advanced_clear_cw_cache">נקה מטמון \&quot;המשך צפייה\&quot;</string>
-    <string name="advanced_clear_cw_cache_subtitle">הסר Thumbnails, כותרות ונתוני העשרה שמורים עבור  \&quot;המשך צפייה\&quot;</string>
+    <string name="advanced_clear_cw_cache">נקה מטמון \"המשך צפייה\"</string>
+    <string name="advanced_clear_cw_cache_subtitle">הסר Thumbnails, כותרות ונתוני העשרה שמורים עבור  \"המשך צפייה\"</string>
     <string name="advanced_clear_cw_cache_done">המטמון נוקה</string>
     <string name="advanced_remember_last_profile">זכור פרופיל אחרון</string>
     <string name="advanced_remember_last_profile_subtitle">זכור את הפרופיל האחרון שנבחר</string>
@@ -794,7 +794,7 @@
     <string name="audio_dv5_to_dv81_title">המר DV5 ל-DV8.1</string>
     <string name="audio_dv5_to_dv81_sub">מסמן זרמי Profile 5 כ-Profile 8.1 לפלט תואם HDR10. עוזר במכשירים ללא מפענח DV5 מובנה.</string>
     <string name="audio_strip_hdr10plus_title">הסר מטא-דאטה של HDR10+</string>
-    <string name="audio_strip_hdr10plus_sub">הסרת מטא-דאטה דינמי של HDR10+ מהזרמים. כשגם \\&quot;המרה ל-DV8.1\\&quot; פעיל, ההסרה מתבצעת אחרי ההמרה.</string>
+    <string name="audio_strip_hdr10plus_sub">הסרת מטא-דאטה דינמי של HDR10+ מהזרמים. כשגם \\"המרה ל-DV8.1\\" פעיל, ההסרה מתבצעת אחרי ההמרה.</string>
     <string name="audio_dv7_preserve_mapping_title">Preserve DV mapping (DV7 to DV8.1)</string>
     <string name="audio_dv7_preserve_mapping_sub">שומר על מיפוי הטונים כפי שהתכוון יוצר התוכן, במחיר עיבוד מעט כבד יותר לכל פריים.</string>
     <string name="dv7_libdovi_mode_caption">Conversion mode (auto-selected, do not change unless instructed). Pick one to force it; None uses auto. Active only when DV7 Handling is Convert to DV8.1.</string>
@@ -921,8 +921,8 @@
     <string name="autoplay_scope_all_desc">הבחירה האוטומטית יכולה להשתמש בתוספים מותקנים ופלאגינים מופעלים.</string>
     <string name="autoplay_scope_addons_desc">הבחירה האוטומטית שוקלת רק מקורות מתוספים מותקנים.</string>
     <string name="autoplay_scope_plugins_desc">הבחירה האוטומטית שוקלת רק מקורות מפלאגינים מופעלים.</string>
-    <string name="autoplay_threshold_pct_desc">אם לא ידוע מתי בדיוק הפרק מסתיים, האפליקציה תציע \&quot;פרק הבא\&quot; לפי האחוז שהגדרת.</string>
-    <string name="autoplay_threshold_min_desc">אם לא ידוע מתי בדיוק הפרק מסתיים, האפליקציה תציע \&quot;פרק הבא\&quot; לפי הזמן שהגדרת.</string>
+    <string name="autoplay_threshold_pct_desc">אם לא ידוע מתי בדיוק הפרק מסתיים, האפליקציה תציע \"פרק הבא\" לפי האחוז שהגדרת.</string>
+    <string name="autoplay_threshold_min_desc">אם לא ידוע מתי בדיוק הפרק מסתיים, האפליקציה תציע \"פרק הבא\" לפי הזמן שהגדרת.</string>
     <string name="autoplay_regex_matches">מחפש התאמה בשם, בכותרת, בתיאור, בתוסף או בכתובת ה-URL של המקור. דוגמה: 4K|2160p|Remux</string>
     <string name="autoplay_regex_presets">הגדרות מוכנות</string>
     <string name="autoplay_invalid_regex">תבנית regex לא תקינה</string>
@@ -958,10 +958,10 @@
     <string name="layout_classic_focus_gradient_sub">משלב את צבעי התמונה לתוך הצד הימני של דף הבית הקלאסי.</string>
     <string name="layout_show_hero">הצג אזור הירו</string>
     <string name="layout_show_hero_sub">הצג קרוסלת הירו בראש הבית.</string>
-    <string name="layout_show_discover">הצג כפתור \&quot;גילוי\&quot; בחיפוש</string>
+    <string name="layout_show_discover">הצג כפתור \"גילוי\" בחיפוש</string>
     <string name="layout_show_discover_sub">הצג אזור גילוי למציאות סרטים וסדרות.</string>
-    <string name="layout_discover_location_action">מיקום \&quot;גילוי\&quot;</string>
-    <string name="layout_discover_location_dialog_title">מיקום \&quot;גילוי\&quot;</string>
+    <string name="layout_discover_location_action">מיקום \"גילוי\"</string>
+    <string name="layout_discover_location_dialog_title">מיקום \"גילוי\"</string>
     <string name="layout_discover_location_in_search">הצג כפתור בחיפוש</string>
     <string name="layout_discover_location_in_search_desc">כפתור הגילוי יופיע במסך החיפוש.</string>
     <string name="layout_discover_location_in_sidebar">הצג בחלונית הצד</string>
@@ -987,10 +987,10 @@
     <string name="layout_section_streams">מקורות</string>
     <string name="layout_section_streams_desc">הגדרות תצוגה עבור תוצאות מקור ופאנלי מקור בנגן</string>
     <string name="layout_section_continue_watching">המשך צפייה</string>
-    <string name="layout_section_continue_watching_desc">הגדרות עבור אזור \&quot;המשך צפייה\&quot;.</string>
+    <string name="layout_section_continue_watching_desc">הגדרות עבור אזור \"המשך צפייה\".</string>
     <string name="layout_cw_enabled">הצגת המשך צפייה</string>
     <string name="layout_cw_enabled_sub">הצגת שורת המשך הצפייה במסך הבית.</string>
-    <string name="layout_use_episode_thumbnails_cw">השתמש ב-Thumbnail של הפרק ב\&quot;המשך צפייה\&quot;</string>
+    <string name="layout_use_episode_thumbnails_cw">השתמש ב-Thumbnail של הפרק ב\"המשך צפייה\"</string>
     <string name="layout_use_episode_thumbnails_cw_sub">השתמשת ב-Thumbnail של הפרק כתמונת ברירת המחדל. כשמושבת, משתמש בתמונת הרקע</string>
     <string name="layout_blur_unwatched">טשטוש פרקים שלא נצפו</string>
     <string name="layout_blur_unwatched_sub">טשטש Thumbnails של פרקים שטרם נצפו, כדי למנוע ספולרים</string>
@@ -1002,23 +1002,23 @@
     <string name="layout_episode_options_overlay_artwork_desc">השתמש בפריסת מסך מלא עם תמונת הפרק.</string>
     <string name="layout_episode_options_overlay_blur">טשטוש</string>
     <string name="layout_episode_options_overlay_blur_desc">השתמש בפריסת מסך מלא עם תמונת פרק מטושטשת.</string>
-    <string name="layout_blur_cw_next_up">טשטש פרקים שלא נצפו ב\&quot;המשך צפייה\&quot; </string>
-    <string name="layout_blur_cw_next_up_sub">טשטש Thumbnails של פרק הבא ב\&quot;המשך צפייה\&quot; כדי למנוע ספולרים</string>
+    <string name="layout_blur_cw_next_up">טשטש פרקים שלא נצפו ב\"המשך צפייה\" </string>
+    <string name="layout_blur_cw_next_up_sub">טשטש Thumbnails של פרק הבא ב\"המשך צפייה\" כדי למנוע ספולרים</string>
     <string name="layout_next_up_furthest_episode">הפרק הבא מוגדר לפי הפרק המתקדם ביותר שנצפה</string>
     <string name="layout_next_up_furthest_episode_sub">הצג את הפרק הבא בהתבסס על הפרק הרחוק ביותר שנצפה. השבת כדי להשתמש בפרק האחרון שנצפה במקום (מתאים לצפייה חוזרת).</string>
     <string name="layout_show_unaired_next_up">הצג גם פרקים שטרם שודרו</string>
-    <string name="layout_show_unaired_next_up_sub">כלול פרקים עתידיים ב\&quot;המשך צפייה\&quot; לפני שהם משודרים.</string>
+    <string name="layout_show_unaired_next_up_sub">כלול פרקים עתידיים ב\"המשך צפייה\" לפני שהם משודרים.</string>
     <string name="layout_cw_card_style_card">כרטיס</string>
     <string name="layout_cw_card_style_wide">רחב</string>
     <string name="layout_cw_card_style_poster">פוסטר</string>
     <string name="layout_cw_sort_mode">סדר המיון</string>
-    <string name="layout_cw_sort_mode_sub">כיצד פריטי  \&quot;המשך צפייה\&quot; מסודרים</string>
+    <string name="layout_cw_sort_mode_sub">כיצד פריטי  \"המשך צפייה\" מסודרים</string>
     <string name="layout_cw_sort_default">ברירת מחדל</string>
     <string name="layout_cw_sort_default_desc">מיין את כל הפריטים לפי עדכניות</string>
     <string name="layout_cw_sort_streaming">סגנון סטרימינג</string>
     <string name="layout_cw_sort_streaming_desc">פריטים שיצאו תחילה, עתידיים בסוף</string>
-    <string name="layout_cw_sort_split_upcoming">שורת \&quot;עתידי\&quot; נפרדת</string>
-    <string name="layout_cw_sort_split_upcoming_desc">העבר פרקים שטרם שודרו לשורת \&quot;עתידי\&quot; נפרדת</string>
+    <string name="layout_cw_sort_split_upcoming">שורת \"עתידי\" נפרדת</string>
+    <string name="layout_cw_sort_split_upcoming_desc">העבר פרקים שטרם שודרו לשורת \"עתידי\" נפרדת</string>
     <string name="upcoming_section_title">עתידי</string>
     <string name="layout_trailer_button">הצג כפתור טריילר</string>
     <string name="layout_trailer_button_sub">הצג כפתור טריילר בעמוד הפרטים (רק כשטריילר זמין).</string>
@@ -1122,7 +1122,7 @@
     <string name="web_custom_poster_error_connection">שגיאת חיבור</string>
     <string name="web_custom_poster_current">נוכחי:</string>
     <string name="web_custom_poster_none">לא הוגדרה תבנית</string>
-    <string name="web_custom_poster_loading">טוען...</string>
+    <string name="web_custom_poster_loading">טוען…</string>
     <string name="web_custom_poster_placeholders_info">מציינים: {id} מעביר את כל מזהי התוכן. {imdb_id}, {tmdb_id}, {tvdb_id}, {kitsu_id} מיועדים לסוג מזהה בודד - אם לא זמין, הפוסטר המקורי נשמר. {imdb_id|tmdb_id|kitsu_id} מציין סוגי מזהים נתמכים - נעשה שימוש בסוג המתאים, או שהפוסטר המקורי נשמר. הוספת ? הופכת מציין למשתנה, כך שהוא יתפוגג לריק במקום לדלג: {imdb_id?}. מציינים נוספים: {id_type}, {typed_id}, {type}, {shape}.</string>
     <string name="mdblist_name">MDBList</string>
     <string name="mdblist_tracking_description">סנכרון היסטוריית צפייה והתקדמות הפעלה בין מכשירים</string>
@@ -1226,7 +1226,7 @@
     <string name="debrid_prepare_instant_playback">הכן קישורים</string>
     <string name="debrid_prepare_instant_playback_description">פענוח קישורים ניתנים להפעלה עוד לפני תחילת ההפעלה.</string>
     <string name="debrid_prepare_stream_count">קישורים להכנה</string>
-    <string name="debrid_prepare_stream_count_warning">מומלץ להשתמש במספר נמוך יותר כשניתן. שירותים מחוברים עשויים להגביל את קצב פענוח הקישורים לפרק זמן נתון. פתיחת סרט או פרק יכולה להיספר במגבלה הזו גם ללא לחיצה על \\&quot;הפעלה\\&quot;, כי הקישורים מוכנים מראש.</string>
+    <string name="debrid_prepare_stream_count_warning">מומלץ להשתמש במספר נמוך יותר כשניתן. שירותים מחוברים עשויים להגביל את קצב פענוח הקישורים לפרק זמן נתון. פתיחת סרט או פרק יכולה להיספר במגבלה הזו גם ללא לחיצה על \\"הפעלה\\", כי הקישורים מוכנים מראש.</string>
     <string name="debrid_prepare_count_one">קישור אחד</string>
     <string name="debrid_prepare_count_many">%1$d קישורים</string>
     <string name="debrid_stream_max_results_title">תוצאות מקסימליות</string>
@@ -1381,7 +1381,7 @@
     <string name="trakt_waiting_approval">ממתין לאישור…</string>
     <string name="qr_login_approved">ההתחברות אושרה. מסיים כניסה…</string>
     <string name="qr_login_pending">ממתין לאישור בטלפון שלך…</string>
-    <string name="qr_login_expired">קוד ה-QR פג. לחץ על \&quot;רענן קוד QR\&quot;.</string>
+    <string name="qr_login_expired">קוד ה-QR פג. לחץ על \"רענן קוד QR\".</string>
     <string name="qr_login_preparing">מכין כניסה עם קוד QR…</string>
     <string name="qr_login_device_auth_failed">אימות המכשיר נכשל</string>
     <string name="qr_login_scan_prompt">סרוק קוד QR והתחבר בטלפון שלך</string>
@@ -1391,7 +1391,7 @@
     <string name="qr_login_exchange_failed">Could not complete QR sign in</string>
     <string name="trakt_code_expires">הקוד יפוג בעוד %1$s</string>
     <string name="trakt_token_refreshes">אסימון גישה Trakt יתחדש בעוד %1$s</string>
-    <string name="trakt_login_instruction">לחץ \&quot;התחבר\&quot; להתחלת אימות מכשיר Trakt.</string>
+    <string name="trakt_login_instruction">לחץ \"התחבר\" להתחלת אימות מכשיר Trakt.</string>
     <string name="trakt_missing_credentials">חסר TRAKT_CLIENT_ID / TRAKT_CLIENT_SECRET ב-local.properties.</string>
     <string name="trakt_watch_progress_title">התקדמות צפייה</string>
     <string name="trakt_watch_progress_subtitle">בחר מקור התקדמות שמניע המשך וצפייה מתמשכת</string>
@@ -1411,7 +1411,7 @@
     <string name="trakt_setting_off">כבוי</string>
     <string name="trakt_watch_progress_trakt_selected">מקור התקדמות צפייה הוגדר ל-Trakt</string>
     <string name="trakt_watch_progress_nuvio_selected">מקור התקדמות צפייה הוגדר ל-Nuvio Sync</string>
-    <string name="trakt_continue_watching_window">חלון  \&quot;המשך צפייה\&quot;</string>
+    <string name="trakt_continue_watching_window">חלון  \"המשך צפייה\"</string>
     <string name="trakt_continue_watching_subtitle">היסטוריית Trakt הנחשבת להמשך צפייה</string>
     <string name="trakt_unaired_next_up">פרקים הבאים שטרם שודרו</string>
     <string name="trakt_unaired_next_up_subtitle">הצג פרקים קרובים לפני שידורם</string>
@@ -1425,9 +1425,9 @@
     <string name="trakt_comments_dialog_subtitle">בחר אם עמודי מטה-דאטה יציגו ביקורות Trakt כאשר החשבון שלך מחובר.</string>
     <string name="trakt_comments_now_shown">ביקורות Trakt בעמודי מטה-דאטה מוצגות כעת</string>
     <string name="trakt_comments_now_hidden">ביקורות Trakt בעמודי מטה-דאטה מוסתרות כעת</string>
-    <string name="trakt_more_like_this_source_title">מקור \&quot;עוד כמו זה\&quot;</string>
+    <string name="trakt_more_like_this_source_title">מקור \"עוד כמו זה\"</string>
     <string name="trakt_more_like_this_source_subtitle">בחירת מקור ההמלצות במסכי הפרטים ואחרי ההפעלה</string>
-    <string name="trakt_more_like_this_source_dialog_title">מקור \&quot;עוד כמו זה\&quot;</string>
+    <string name="trakt_more_like_this_source_dialog_title">מקור \"עוד כמו זה\"</string>
     <string name="trakt_more_like_this_source_dialog_subtitle">בחירת מקור ההמלצות המוצגות במסכי הפרטים ואחרי ההפעלה.</string>
     <string name="trakt_more_like_this_source_trakt">Trakt</string>
     <string name="trakt_more_like_this_source_tmdb">TMDB</string>
@@ -1544,7 +1544,7 @@
     <string name="profile_copy_settings_subtitle">יש לבחור פרופיל מקור. הגדרות הטלוויזיה הנתמכות שלו יחליפו את הגדרות הפרופיל הזה, פעם אחת.</string>
     <string name="profile_copy_settings_from">העתקה מ-</string>
     <string name="profile_copy_settings_action">העתקת הגדרות</string>
-    <string name="profile_copy_settings_copying">מעתיק...</string>
+    <string name="profile_copy_settings_copying">מעתיק…</string>
     <string name="profile_copy_settings_apply">החלה</string>
     <string name="profile_copy_settings_credentials_off">מפתחות API: לא להעתיק</string>
     <string name="profile_copy_settings_credentials_on">מפתחות API: העתקת מפתחות חסרים</string>
@@ -1553,7 +1553,7 @@
     <string name="profile_copy_settings_success">ההגדרות הועתקו מ-%1$s אל %2$s.</string>
     <string name="profile_copy_settings_error">לא ניתן היה להעתיק את ההגדרות. יש לבדוק את החיבור ולנסות שוב.</string>
     <string name="profile_copy_settings_created_success">הפרופיל נוצר עם הגדרות מ-%1$s.</string>
-    <string name="profile_copy_settings_created_error">"הפרופיל נוצר, אך לא ניתן היה להעתיק את ההגדרות. אפשר לנסות שוב מתוך \&quot;אפשרויות הפרופיל\&quot; בהגדרות.</string>
+    <string name="profile_copy_settings_created_error">"הפרופיל נוצר, אך לא ניתן היה להעתיק את ההגדרות. אפשר לנסות שוב מתוך \"אפשרויות הפרופיל\" בהגדרות.</string>
     <string name="profile_create_error">לא ניתן היה ליצור פרופיל. נסו שוב.</string>
     <string name="profile_pin_title">נעילת סיסמנ לפרופיל</string>
     <string name="profile_pin_enabled_subtitle">פרופיל זה דורש סיסמה בת 4 ספרות לפני החלפה.</string>
@@ -1694,14 +1694,14 @@
     <string name="playback_show_loading_status">הצג סטטוס טעינה</string>
     <string name="playback_show_loading_status_sub">הצג התקדמות שלב-אחר-שלב בזמן שהנגן מאתחל.</string>
     <string name="player_sync_line">סנכרון לפי שורה</string>
-    <string name="subtitle_timing_press_sync">לחץ \&quot;סנכרן\&quot; כשהדמות מתחילה לדבר</string>
+    <string name="subtitle_timing_press_sync">לחץ \"סנכרן\" כשהדמות מתחילה לדבר</string>
     <string name="subtitle_timing_sync_button">סנכרן</string>
     <string name="subtitle_timing_select_addon_first">קודם בחר רצועת כתוביות מתוסף (לא כתוביות מובנות).</string>
     <string name="subtitle_auto_sync_select_addon_track">בחר רצועת כתוביות מתוסף כדי להשתמש בסנכרון אוטומטי.</string>
     <string name="subtitle_auto_sync_applied">הסנכרון הוחל: %1$s</string>
     <string name="subtitle_timing_loading">טוען שורות כתוביות…</string>
     <string name="subtitle_timing_no_lines_found">לא נמצאו שורות כתוביות סביב רגע זה.</string>
-    <string name="subtitle_timing_press_back_cancel">בחר את השורה ששמעת כשלחצת על \&quot;סנכרן\&quot;. לביטול, לחץ חזרה.</string>
+    <string name="subtitle_timing_press_back_cancel">בחר את השורה ששמעת כשלחצת על \"סנכרן\". לביטול, לחץ חזרה.</string>
     <string name="subtitle_timing_captured_at">נלכד ב-%1$s</string>
     <string name="subtitle_timing_capturing">לוכד…</string>
     <string name="parental_nudity">עירום</string>
@@ -1975,7 +1975,7 @@
     <string name="library_syncing_library">מסנכרן ספרייה…</string>
     <string name="library_type_all">הכול</string>
     <string name="library_type_items">פריטים</string>
-    <string name="library_empty_local_title">אין עדיין פריטים ב\&quot;%1$s\&quot;</string>
+    <string name="library_empty_local_title">אין עדיין פריטים ב\"%1$s\"</string>
     <string name="library_empty_trakt_title">אין %1$s ברשימה זו</string>
     <string name="library_empty_local_subtitle">התחל לשמור מועדפים כדי לראותם כאן</string>
     <string name="library_empty_trakt_subtitle">השתמש ב-+ בפרטים להוספת פריטים לרשימת צפייה</string>
@@ -2078,7 +2078,7 @@
     <string name="official_server_action">השתמש בשרת הרשמי</string>
     <string name="custom_server_error_invalid_url">הזן כתובת Backend חוקית מסוג HTTP או HTTPS.</string>
     <string name="custom_server_error_official_active">api.nuvio.tv הוא השרת הרשמי והוא כבר נבחר.</string>
-    <string name="custom_server_error_official_available">api.nuvio.tv הוא השרת הרשמי. סגור את החלון ובחר באפשרות \&quot;השתמש בשרת הרשמי\&quot; כדי לחזור אליו.</string>
+    <string name="custom_server_error_official_available">api.nuvio.tv הוא השרת הרשמי. סגור את החלון ובחר באפשרות \"השתמש בשרת הרשמי\" כדי לחזור אליו.</string>
     <string name="custom_server_error_connection">לא ניתן להגיע לנקודת הקצה של ה-Discovery. בדוק את הכתובת ואת זמינות השרת.</string>
     <string name="custom_server_error_http">נקודת הקצה של ה-Discovery החזירה HTTP %1$d.</string>
     <string name="custom_server_error_response_too_large">מסמך ה-Discovery גדול מהמותר.</string>
@@ -2347,7 +2347,7 @@
     <string name="collections_header">אוספים</string>
     <string name="collections_delete_confirm_title">למחוק אוסף?</string>
     <string name="collections_delete_confirm">מחק</string>
-    <string name="collections_delete_confirm_subtitle">פעולה זו תמחק לצמיתות את \&quot;%1$s\&quot;. לא ניתן לבטל פעולה זו.</string>
+    <string name="collections_delete_confirm_subtitle">פעולה זו תמחק לצמיתות את \"%1$s\". לא ניתן לבטל פעולה זו.</string>
     <string name="collections_empty">אין עדיין אוספים. צור אחד כדי לארגן את הקטלוגים שלך.</string>
     <string name="collections_new">אוסף חדש</string>
     <string name="collections_import">ייבוא</string>
@@ -2388,7 +2388,7 @@
     <string name="collections_editor_focus_glow">פוקוס זוהר</string>
     <string name="collections_editor_focus_glow_desc">Use the native TV glow on this collection\&apos;s home-screen custom catalog cards</string>
     <string name="collections_editor_view_mode">מצב תצוגה</string>
-    <string name="collections_editor_show_all_tab">הצג לשונית \&quot;הכל\&quot;</string>
+    <string name="collections_editor_show_all_tab">הצג לשונית \"הכל\"</string>
     <string name="collections_editor_show_all_tab_desc">Combine all catalogs into one tab</string>
     <string name="collections_editor_folders">תיקיות</string>
     <string name="collections_editor_add_folder">הוסף תיקייה</string>
@@ -2578,7 +2578,7 @@
     <string name="collections_editor_title_logo">לוגו כותרת (בית מודרני)</string>
     <string name="collections_editor_placeholder_title_logo">כתובת URL ללוגו כותרת מותאם אישית (אופציונלי)</string>
     <string name="collections_editor_search_emoji_placeholder">חפש אימוג׳י…</string>
-    <string name="collections_editor_filter_active_sources_placeholder">סינון מקורות פעילים...</string>
+    <string name="collections_editor_filter_active_sources_placeholder">סינון מקורות פעילים…</string>
     <string name="collections_editor_search_catalogs_placeholder">חפש קטלוגים…</string>
     <string name="collections_editor_genre_filter">סינון ז׳אנר</string>
     <string name="collections_editor_choose_genre">בחר</string>
@@ -2598,7 +2598,7 @@
     <string name="collection_editor_folder_count_one">פריט %1$d</string>
     <string name="collection_editor_folder_count_other">%1$d פריטים</string>
     <string name="collections_editor_delete_folder_title">למחוק תיקייה?</string>
-    <string name="collections_editor_delete_folder_subtitle">פעולה זו תמחק לצמיתות את \\&quot;%1$s\\&quot; ואת תכולתה.</string>
+    <string name="collections_editor_delete_folder_subtitle">פעולה זו תמחק לצמיתות את \\"%1$s\\" ואת תכולתה.</string>
     <string name="collections_editor_tmdb_movie_title_placeholder">Marvel Movies, Netflix Originals, Pixar</string>
     <string name="collections_editor_tmdb_tv_title_placeholder">Best Action Movies, Korean Dramas, 2024 Animation</string>
     <string name="collections_editor_tmdb_person_title_placeholder">Tom Hanks Movies, Favorite Actors</string>
@@ -2678,18 +2678,18 @@
     <string name="collections_import_error_empty_input">קלט ריק</string>
     <string name="collections_import_error_expected_array">Invalid format: expected an array</string>
     <string name="collections_import_error_empty_array">מערך ריק: לא נמצאו אוספים</string>
-    <string name="collections_import_error_missing_id">Collection %1$d: missing or invalid \&quot;id\&quot;</string>
-    <string name="collections_import_error_missing_title">Collection \&quot;%1$s\&quot;: missing or invalid \&quot;title\&quot;</string>
-    <string name="collections_import_error_folders_array">Collection \&quot;%1$s\&quot;: \&quot;folders\&quot; must be an array</string>
-    <string name="collections_import_error_folder_invalid">Collection \&quot;%1$s\&quot;, folder %2$d: invalid format</string>
-    <string name="collections_import_error_folder_missing_id">Collection \&quot;%1$s\&quot;, folder %2$d: missing \&quot;id\&quot;</string>
-    <string name="collections_import_error_folder_missing_title">Collection \&quot;%1$s\&quot;, folder \&quot;%2$s\&quot;: missing \&quot;title\&quot;</string>
-    <string name="collections_import_error_sources_array">Collection \&quot;%1$s\&quot;, folder \&quot;%2$s\&quot;: \&quot;sources\&quot; must be an array</string>
-    <string name="collections_import_error_invalid_tile_shape">Collection \&quot;%1$s\&quot;, folder \&quot;%2$s\&quot;: invalid tileShape \&quot;%3$s\&quot;</string>
-    <string name="collections_import_error_source_invalid">Collection \&quot;%1$s\&quot;, folder \&quot;%2$s\&quot;, source %3$d: invalid format</string>
-    <string name="collections_import_error_source_required_fields">Collection \&quot;%1$s\&quot;, folder \&quot;%2$s\&quot;, source %3$d: missing required fields</string>
-    <string name="collections_import_error_missing_tmdb_type">Collection \&quot;%1$s\&quot;, folder \&quot;%2$s\&quot;, source %3$d: missing TMDB source type</string>
-    <string name="collections_import_error_missing_trakt_list_id">Collection \&quot;%1$s\&quot;, folder \&quot;%2$s\&quot;, source %3$d: missing Trakt list ID</string>
+    <string name="collections_import_error_missing_id">Collection %1$d: missing or invalid \"id\"</string>
+    <string name="collections_import_error_missing_title">Collection \"%1$s\": missing or invalid \"title\"</string>
+    <string name="collections_import_error_folders_array">Collection \"%1$s\": \"folders\" must be an array</string>
+    <string name="collections_import_error_folder_invalid">Collection \"%1$s\", folder %2$d: invalid format</string>
+    <string name="collections_import_error_folder_missing_id">Collection \"%1$s\", folder %2$d: missing \"id\"</string>
+    <string name="collections_import_error_folder_missing_title">Collection \"%1$s\", folder \"%2$s\": missing \"title\"</string>
+    <string name="collections_import_error_sources_array">Collection \"%1$s\", folder \"%2$s\": \"sources\" must be an array</string>
+    <string name="collections_import_error_invalid_tile_shape">Collection \"%1$s\", folder \"%2$s\": invalid tileShape \"%3$s\"</string>
+    <string name="collections_import_error_source_invalid">Collection \"%1$s\", folder \"%2$s\", source %3$d: invalid format</string>
+    <string name="collections_import_error_source_required_fields">Collection \"%1$s\", folder \"%2$s\", source %3$d: missing required fields</string>
+    <string name="collections_import_error_missing_tmdb_type">Collection \"%1$s\", folder \"%2$s\", source %3$d: missing TMDB source type</string>
+    <string name="collections_import_error_missing_trakt_list_id">Collection \"%1$s\", folder \"%2$s\", source %3$d: missing Trakt list ID</string>
     <string name="collections_import_error_json_parse">JSON parse error: %1$s</string>
     <string name="library_synced">הספרייה סונכרנה</string>
     <string name="library_error_refresh_failed">Failed to refresh library</string>
@@ -2741,7 +2741,7 @@
     <string name="simkl_sync_info_title">איך סנכרון Simkl עובד</string>
     <string name="simkl_sync_info_description">Nuvio בודקת את Simkl באופן אוטומטי לכל היותר פעם ב-%1$d דקות. שינויים שנעשו דרך אפליקציה אחרת או אתר Simkl עשויים להופיע רק לאחר זמן זה.</string>
     <string name="simkl_sync_info_activity">כל רענון בודק תחילה אם Simkl מדווחת על שינויים ומוריד רק את העדכונים. כך נשמרים כללי ה-API של Simkl, מצטמצם שימוש מיותר בנתונים, והשירות נשאר יציב יותר.</string>
-    <string name="simkl_sync_info_manual">שינויים שנעשים ב-Nuvio נשלחים ל-Simkl באופן מיידי. השתמש ב\&quot;סנכרן עכשיו\&quot; כשתרצה ש-Nuvio תבדוק שינויים מרוחקים מוקדם יותר.</string>
+    <string name="simkl_sync_info_manual">שינויים שנעשים ב-Nuvio נשלחים ל-Simkl באופן מיידי. השתמש ב\"סנכרן עכשיו\" כשתרצה ש-Nuvio תבדוק שינויים מרוחקים מוקדם יותר.</string>
     <string name="simkl_sync_info_library_statuses">פריטים שנמצאים ברשימות On Hold או Dropped של Simkl מוסתרים מהמשך צפייה. הם יישארו מוסתרים כל עוד הם נמצאים באחת מהרשימות הללו.</string>
     <string name="simkl_sync_info_docs">קרא את מדריך הסנכרון של Simkl</string>
     <string name="error_open_browser_failed">פתיחת הדפדפן נכשלה</string>
@@ -2752,8 +2752,8 @@
     <string name="simkl_status_disconnected">מנותק מ-Simkl</string>
     <string name="simkl_status_syncing">מסתנכרן עם Simkl\…</string>
     <string name="simkl_status_synced">סנכרון Simkl הושלם</string>
-    <string name="simkl_watch_progress_selected">Simkl נבחר ל\&quot;המשך צפייה\&quot;</string>
-    <string name="simkl_library_source_selected">Simkl נבחר ל\&quot;ספרייה\&quot;</string>
+    <string name="simkl_watch_progress_selected">Simkl נבחר ל\"המשך צפייה\"</string>
+    <string name="simkl_library_source_selected">Simkl נבחר ל\"ספרייה\"</string>
     <string name="simkl_error_code_expired">קוד ה-Simkl פג תוקף. התחל מחדש.</string>
     <string name="simkl_error_authorization_revoked">האישור ל-Simkl בוטל. התחבר שוב.</string>
     <string name="simkl_error_network">לא ניתן להתחבר ל-Simkl. נסה שוב.</string>
@@ -2929,7 +2929,7 @@
     <string name="playback_buffer_max_sub">Maximum amount of media to buffer. Must be at least the minimum buffer duration. Higher values use more memory but provide smoother playback on unstable connections.</string>
     <string name="playback_buffer_value_same_as_min">%1$ds (same as min)</string>
     <string name="playback_buffer_initial">אגירת נתונים ראשונית</string>
-    <string name="playback_buffer_initial_sub">כמה זמן לחכות לפני שהסרטון מתחיל. ערך נמוך = התחלה מהירה יותר, אבל יכול \&quot;להיתקע\&quot; בהתחלה אם האינטרנט איטי.</string>
+    <string name="playback_buffer_initial_sub">כמה זמן לחכות לפני שהסרטון מתחיל. ערך נמוך = התחלה מהירה יותר, אבל יכול \"להיתקע\" בהתחלה אם האינטרנט איטי.</string>
     <string name="playback_buffer_after_rebuffer">איגור לאחר איגור מחדש</string>
     <string name="playback_buffer_after_rebuffer_sub">כמות התוכן לאיגור אחרי שההפעלה נעצרת עקב איגור. ערכים גבוהים יותר מפחיתים הפרעות איגור חוזרות.</string>
     <string name="playback_buffer_back">זיכרון לחזרה אחורה</string>
