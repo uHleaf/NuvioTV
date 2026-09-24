@@ -227,7 +227,7 @@
     <string name="detail_tab_trailer">טריילר</string>
     <string name="detail_more_like_this_powered_by_tmdb">מבוסס על TMDB</string>
     <string name="detail_more_like_this_powered_by_trakt">מבוסס על Trakt</string>
-    <string name="detail_more_like_this_powered_by_simkl">Powered by Simkl</string>
+    <string name="detail_more_like_this_powered_by_simkl">מבוסס על Simkl</string>
     <string name="detail_comments_title">תגובות</string>
     <string name="detail_comments_subtitle">ביקורות מ-Trakt</string>
     <string name="detail_comments_subtitle_episode">ביקורות מ-Trakt עבור S%1$dE%2$d</string>
