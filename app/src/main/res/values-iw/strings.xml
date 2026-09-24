@@ -2505,7 +2505,7 @@
     <string name="collections_paste_hint">הדבק כאן JSON של אוספים…</string>
     <string name="collections_file_description">קורא את nuvio-collections.json מתיקיית ההורדות.</string>
     <string name="collections_load_file">טען קובץ</string>
-    <string name="collections_file_loaded">File loaded (%1$d characters)</string>
+    <string name="collections_file_loaded">הקובץ נטען (%1$d תווים)</string>
     <string name="collections_fetch_url">משוך URL</string>
     <string name="collections_fetching">מושך…</string>
     <string name="collections_valid_json">JSON תקין</string>
@@ -2520,10 +2520,10 @@
     <string name="collections_editor_pin_above">נעץ מעל קטלוגים</string>
     <string name="collections_editor_pin_above_desc">הצג אוסף זה מעל כל קטלוגי הבית הרגילים. מספר אוספים נעוצים עוקבים אחר סדר יצירת האוספים.</string>
     <string name="collections_editor_focus_glow">פוקוס זוהר</string>
-    <string name="collections_editor_focus_glow_desc">Use the native TV glow on this collection\'s home-screen custom catalog cards</string>
+    <string name="collections_editor_focus_glow_desc">שימוש בזוהר הטלוויזיה המובנה על כרטיסי הקטלוג המותאם אישית של האוסף הזה במסך הבית</string>
     <string name="collections_editor_view_mode">מצב תצוגה</string>
-    <string name="collections_editor_show_all_tab">הצג לשונית \"הכל\"</string>
-    <string name="collections_editor_show_all_tab_desc">Combine all catalogs into one tab</string>
+    <string name="collections_editor_show_all_tab">הצג לשונית \"הכול\"</string>
+    <string name="collections_editor_show_all_tab_desc">שילוב כל הקטלוגים בכרטיסייה אחת</string>
     <string name="collections_editor_folders">תיקיות</string>
     <string name="collections_editor_add_folder">הוסף תיקייה</string>
     <string name="collections_editor_new_folder">תיקייה חדשה</string>
@@ -2574,8 +2574,8 @@
     <string name="collections_editor_tmdb_public_list">רשימת TMDB ציבורית</string>
     <string name="collections_editor_tmdb_network_id">מזהה רשת שידור</string>
     <string name="collections_editor_tmdb_collection_id">מזהה אוסף</string>
-    <string name="collections_editor_tmdb_company_search">Production company name, ID, or URL</string>
-    <string name="collections_editor_tmdb_display_title">Display title</string>
+    <string name="collections_editor_tmdb_company_search">שם חברת ההפקה, מזהה, או כתובת URL</string>
+    <string name="collections_editor_tmdb_display_title">כותרת תצוגה</string>
     <string name="collections_editor_tmdb_title_optional">כותרת (אופציונלי)</string>
     <string name="collections_editor_tmdb_search">חיפוש</string>
     <string name="collections_editor_add_source">הוסף מקור</string>
@@ -2638,7 +2638,7 @@
     <string name="collections_editor_tmdb_without_keywords">מזהי מילות מפתח מוחרגות</string>
     <string name="collections_editor_tmdb_without_keywords_helper">החרגת כותרות התואמות למספרי מילות המפתח האלה של TMDB.</string>
     <string name="collections_editor_tmdb_companies">מזהי חברות</string>
-    <string name="collections_editor_tmdb_companies_helper">Use studio/company IDs. Quick chips fill common examples.</string>
+    <string name="collections_editor_tmdb_companies_helper">יש להשתמש במזהי אולפן/חברה.</string>
     <string name="collections_editor_tmdb_without_companies">מזהי חברות מוחרגות</string>
     <string name="collections_editor_tmdb_without_companies_helper">החרגת כותרות המשויכות למספרי החברות האלה של TMDB.</string>
     <string name="collections_editor_tmdb_networks">מזהי רשתות שידור</string>
@@ -2654,7 +2654,7 @@
     <string name="collections_editor_direction_asc_short">עולה</string>
     <string name="collections_editor_direction_desc_short">יורד</string>
     <string name="collections_editor_trakt_movie_list">רשימת סרטי Trakt</string>
-    <string name="collections_editor_trakt_series_list">Trakt Series List</string>
+    <string name="collections_editor_trakt_series_list">רשימת סדרות Trakt</string>
     <string name="collections_editor_trakt_list_with_id">רשימת Trakt %1$d</string>
     <string name="collections_editor_trakt_public_list">רשימה ציבורית של Trakt</string>
     <string name="collections_editor_trakt_items_count">%1$d פריטים</string>
