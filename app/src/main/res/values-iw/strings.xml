@@ -2825,7 +2825,7 @@
 
     <!-- Collection import errors -->
     <string name="collections_import_error_empty_input">קלט ריק</string>
-    <string name="collections_import_error_expected_array">Invalid format: expected an array</string>
+    <string name="collections_import_error_expected_array">פורמט לא תקין: צפוי מערך</string>
     <string name="collections_import_error_empty_array">מערך ריק: לא נמצאו אוספים</string>
     <string name="collections_import_error_missing_id">Collection %1$d: missing or invalid \"id\"</string>
     <string name="collections_import_error_missing_title">Collection \"%1$s\": missing or invalid \"title\"</string>
@@ -2839,19 +2839,19 @@
     <string name="collections_import_error_source_required_fields">Collection \"%1$s\", folder \"%2$s\", source %3$d: missing required fields</string>
     <string name="collections_import_error_missing_tmdb_type">Collection \"%1$s\", folder \"%2$s\", source %3$d: missing TMDB source type</string>
     <string name="collections_import_error_missing_trakt_list_id">Collection \"%1$s\", folder \"%2$s\", source %3$d: missing Trakt list ID</string>
-    <string name="collections_import_error_json_parse">JSON parse error: %1$s</string>
+    <string name="collections_import_error_json_parse">שגיאת פענוח JSON: %1$s</string>
 
     <!-- Library messages -->
     <string name="library_synced">הספרייה סונכרנה</string>
-    <string name="library_error_refresh_failed">Failed to refresh library</string>
+    <string name="library_error_refresh_failed">רענון הספרייה נכשל</string>
     <string name="library_list_created">הרשימה נוצרה</string>
     <string name="library_error_invalid_list">רשימה שגויה</string>
     <string name="library_list_updated">הרשימה עודכנה</string>
-    <string name="library_error_save_list_failed">Failed to save list</string>
+    <string name="library_error_save_list_failed">שמירת הרשימה נכשלה</string>
     <string name="library_list_deleted">הרשימה נמחקה</string>
-    <string name="library_error_delete_list_failed">Failed to delete list</string>
-    <string name="library_list_order_updated">List order updated</string>
-    <string name="library_error_reorder_lists_failed">Failed to reorder lists</string>
+    <string name="library_error_delete_list_failed">מחיקת הרשימה נכשלה</string>
+    <string name="library_list_order_updated">סדר הרשימה עודכן</string>
+    <string name="library_error_reorder_lists_failed">שינוי סדר הרשימות נכשל</string>
     <string name="library_list_fallback_title">רשימה</string>
     <!-- Library privacy display labels (mapped from API value, not used as a key) -->
     <string name="library_privacy_private">פרטי</string>
@@ -3119,18 +3119,18 @@
     <string name="playback_section_buffer_network">אגירת נתונים ורשת</string>
     <string name="playback_section_buffer_network_desc">כמה תוכן לשמור בזיכרון וכיצד למשוך Streams.</string>
     <string name="playback_net_device_memory_info">זיכרון המכשיר: %1$s | מגבלת בטיחות מומלצת: %2$d MB</string>
-    <string name="playback_net_nuvio_performance_mode">ExoPlayer Native Memory</string>
-    <string name="playback_net_nuvio_performance_mode_sub">Enable native off-heap allocator and scrubbing optimizations.</string>
-    <string name="playback_net_nuvio_performance_mode_not_supported">This feature is not supported by your device.</string>
-    <string name="playback_buffer_custom">Custom Playback Buffers</string>
-    <string name="playback_buffer_custom_sub">Override Media3\'s default buffering with the values below. When off, the player uses Media3\'s stock buffer durations and target size.</string>
+    <string name="playback_net_nuvio_performance_mode">זיכרון מקורי של ExoPlayer</string>
+    <string name="playback_net_nuvio_performance_mode_sub">הפעלת הקצאת זיכרון מקורית מחוץ לערימה ואופטימיזציות גלילה.</string>
+    <string name="playback_net_nuvio_performance_mode_not_supported">תכונה זו אינה נתמכת במכשיר.</string>
+    <string name="playback_buffer_custom">מאגרי הפעלה מותאמים אישית</string>
+    <string name="playback_buffer_custom_sub">דריסת האגירה המובנת של Media3 בערכים שלמטה. כשכבוי, הנגן משתמש במשכי ובגודל המאגר המובנים של Media3.</string>
     <string name="playback_buffer_header">אגירת נתונים</string>
-    <string name="playback_buffer_warning">These settings affect buffering behavior. Incorrect values may cause playback issues.</string>
+    <string name="playback_buffer_warning">הגדרות אלה משפיעות על התנהגות האגירה. ערכים שגויים עלולים לגרום לבעיות בהפעלה.</string>
     <string name="playback_buffer_min">כמות מינימלית לטעינה מראש</string>
-    <string name="playback_buffer_min_sub">Minimum amount of media to buffer. The player will try to ensure at least this much content is always buffered ahead of the current playback position.</string>
+    <string name="playback_buffer_min_sub">כמות המדיה המינימלית לאגירה. הנגן ינסה להבטיח שכמות זו של תוכן תמיד תהיה מאוגרת לפני מיקום ההפעלה הנוכחי.</string>
     <string name="playback_buffer_max">כמות מקסימלית לטעינה מראש</string>
-    <string name="playback_buffer_max_sub">Maximum amount of media to buffer. Must be at least the minimum buffer duration. Higher values use more memory but provide smoother playback on unstable connections.</string>
-    <string name="playback_buffer_value_same_as_min">%1$ds (same as min)</string>
+    <string name="playback_buffer_max_sub">כמות המדיה המקסימלית לאגירה. חייבת להיות לפחות כמשך המאגר המינימלי. ערכים גבוהים יותר צורכים יותר זיכרון אך מספקים הפעלה חלקה יותר בחיבורים לא יציבים.</string>
+    <string name="playback_buffer_value_same_as_min">%1$d שניות (כמו המינימום)</string>
     <string name="playback_buffer_initial">אגירת נתונים ראשונית</string>
     <string name="playback_buffer_initial_sub">כמה זמן לחכות לפני שהסרטון מתחיל. ערך נמוך = התחלה מהירה יותר, אבל יכול \"להיתקע\" בהתחלה אם האינטרנט איטי.</string>
     <string name="playback_buffer_after_rebuffer">איגור לאחר איגור מחדש</string>
